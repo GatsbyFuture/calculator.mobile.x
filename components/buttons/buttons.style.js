@@ -24,6 +24,6 @@ export default StyleSheet.create({
     },
     text: {
         fontFamily: 'ubuntu',
-        fontSize: 64,
+        fontSize: 48,
     }
 })

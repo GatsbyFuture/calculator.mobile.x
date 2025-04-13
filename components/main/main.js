@@ -10,7 +10,6 @@ export default function Main() {
         <View style={MainStyle.container}>
             <Screen/>
             <Buttons/>
-            {/*<Text>MY FIRST CALCULATOR.</Text>*/}
         </View>
     );
 }
