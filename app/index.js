@@ -1,15 +1,7 @@
-import { Text, View } from "react-native";
+import Main from "../components/main/main";
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>MY FIRST CALCULATOR.</Text>
-    </View>
-  );
+    return (
+        <Main/>
+    );
 }
