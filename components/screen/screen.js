@@ -2,8 +2,8 @@ import React from 'react';
 import {Text, View} from 'react-native';
 import ScreenStyle from "./screen.style";
 
-export default function Screen() {
-    const [value, setValue] = React.useState(0);
+export default function Screen({value}) {
+    // const [value, setValue] = React.useState(0);
 
     return (
         <View style={ScreenStyle.container}>
