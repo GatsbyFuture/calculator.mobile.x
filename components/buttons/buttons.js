@@ -15,7 +15,7 @@ export default function Buttons({value, onUpdate}) {
     return (
         <View style={ButtonsStyle.container}>
             {
-                ButtonsConfig.SIMPLE_BUTTONS.map(button => {
+                ButtonsConfig.SIMPLE_BUTTONS.map((button, index) => {
                         return <TouchableOpacity
                             key={button.id}
                             style={ButtonsStyle.button}

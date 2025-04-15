@@ -22,6 +22,16 @@ export default StyleSheet.create({
         alignItems: 'center',
         marginTop: 5,
     },
+    // button_equals:{
+    //     width: "48%",
+    //     height: "18.8%",
+    //     borderWidth: 1,
+    //     borderColor: '#000',
+    //     display: 'flex',
+    //     justifyContent: 'center',
+    //     alignItems: 'center',
+    //     marginTop: 5,
+    // },
     text: {
         fontFamily: 'ubuntu',
         fontSize: 48,
